@@ -1,7 +1,20 @@
 # Chat
 
-**TODO: Add description**
-
+Para correr el proyecto se debe ir a la raiz del proyecto y ejecutar:
+```
+mix compile
+```
+Luego ejecutar el siguiente comando para entrar a una terminal de elixir:
+```
+iex -S mix
+```
+Para probar el código, se debe crear un chatroom con n usuarios. "n" se debe cambiar por el número deseado de ususarios.
+``` elixir
+Chat.start_chat(n)
+```
+Para salir de la aplicación
+- Control C
+- (a)
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
